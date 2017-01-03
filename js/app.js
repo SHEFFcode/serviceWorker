@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
             xhr.onreadystatechange = () => {
                 if (xhr.readyState === XMLHttpRequest.DONE) {
                     if (xhr.status === 200) {
-                        var result = 'http://i.imgur.com/J9fGJuo.jpg';
+                        var result = 'https://i.imgur.com/J9fGJuo.jpg';
                         resolve(result);
                     } else {
                         reject(xhr.err);
