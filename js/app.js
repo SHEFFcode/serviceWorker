@@ -29,7 +29,7 @@ if ('serviceWorker' in navigator) {
     }
 }
 
-get('http://i.imgur.com/fHyEMsl.jpg')
+get('https://i.imgur.com/fHyEMsl.jpg')
     .then((response) => {
         console.log('Success!');
         document.getElementById('targetImg').crossOrigin = 'Anonymous';
